@@ -1,0 +1,140 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+projectPLA
+</name>
+</assembly>
+<members>
+<member name="P:projectPLA.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:projectPLA.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:projectPLA.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.anggotaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.bukuDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.kembaliDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.pinjamDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.usersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.anggotaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.bukuRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.kembaliRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.pinjamRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.usersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:projectPLA.plaDataSet.anggotaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:projectPLA.plaDataSet.bukuRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:projectPLA.plaDataSet.kembaliRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:projectPLA.plaDataSet.pinjamRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:projectPLA.plaDataSet.usersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:projectPLA.plaDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:projectPLA.plaDataSetTableAdapters.anggotaTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:projectPLA.plaDataSetTableAdapters.bukuTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:projectPLA.plaDataSetTableAdapters.kembaliTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:projectPLA.plaDataSetTableAdapters.pinjamTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:projectPLA.plaDataSetTableAdapters.usersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:projectPLA.plaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(projectPLA.plaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:projectPLA.plaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(projectPLA.plaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:projectPLA.plaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(projectPLA.plaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:projectPLA.plaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:projectPLA.plaDataSetTableAdapters.TableAdapterManager.UpdateAll(projectPLA.plaDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:projectPLA.plaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:projectPLA.plaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:projectPLA.plaDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
